@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Shoezy">
+  <link rel="shortcut icon" href="favicon.png">
+
+  <meta name="description" content="Shoezy - Your go-to online store for trendy and comfortable shoes." />
+  <meta name="keywords" content="sepatu, sepatu wanita, sepatu pria, jual sepatu online, sepatu berkualitas" />
+
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="css/tiny-slider.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <title>Shoezy - Cart</title>
+</head>
+
+<body>
+
+<!-- Start Header/Navigation -->
+<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" aria-label="Shoezy navigation bar">
+
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Shoezy<span>.</span></a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsShoezy" aria-controls="navbarsShoezy" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsShoezy">
+      <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+      </ul>
+
+      <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+        <li><a class="nav-link" href="cart.html"><img src="images/cart.svg"></a></li>
+      </ul>
+    </div>
+  </div>
+
+</nav>
+<!-- End Header/Navigation -->
+
+<!-- Start Cart Section -->
+<div class="cart-section py-5">
+  <div class="container">
+    <h2 class="h3 mb-5 text-black">Your Shopping Cart</h2>
+    <div class="row">
+      <!-- Cart Item 1: Sepatu Kasual Nordic -->
+      <div class="col-md-12 mb-4">
+        <div class="cart-item d-flex align-items-center justify-content-between p-3 border">
+          <div class="d-flex">
+            <img src="images/productkasual.png" alt="Sepatu Kasual Nordic" class="img-fluid" style="width: 100px;">
+            <div class="ml-3">
+              <h5 class="product-title">Sepatu Kasual Nordic</h5>
+              <p>Rp500.000</p>
+            </div>
+          </div>
+          <div class="quantity">
+            <input type="number" class="form-control quantity-input" value="1" min="1" max="10">
+          </div>
+          <div class="price">
+            <strong class="product-price">Rp500.000</strong>
+          </div>
+          <div class="remove-item">
+            <button class="btn btn-danger remove-btn">Remove</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cart Item 2: Sneakers Kruzo Aero -->
+      <div class="col-md-12 mb-4">
+        <div class="cart-item d-flex align-items-center justify-content-between p-3 border">
+          <div class="d-flex">
+            <img src="images/productsneakers.png" alt="Sneakers Kruzo Aero" class="img-fluid" style="width: 100px;">
+            <div class="ml-3">
+              <h5 class="product-title">Sneakers Kruzo Aero</h5>
+              <p>Rp750.000</p>
+            </div>
+          </div>
+          <div class="quantity">
+            <input type="number" class="form-control quantity-input" value="1" min="1" max="10">
+          </div>
+          <div class="price">
+            <strong class="product-price">Rp750.000</strong>
+          </div>
+          <div class="remove-item">
+            <button class="btn btn-danger remove-btn">Remove</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cart Item 3: Sepatu Formal Ergonomis -->
+      <div class="col-md-12 mb-4">
+        <div class="cart-item d-flex align-items-center justify-content-between p-3 border">
+          <div class="d-flex">
+            <img src="images/productformal.png" alt="Sepatu Formal Ergonomis" class="img-fluid" style="width: 100px;">
+            <div class="ml-3">
+              <h5 class="product-title">Sepatu Formal Ergonomis</h5>
+              <p>Rp600.000</p>
+            </div>
+          </div>
+          <div class="quantity">
+            <input type="number" class="form-control quantity-input" value="1" min="1" max="10">
+          </div>
+          <div class="price">
+            <strong class="product-price">Rp600.000</strong>
+          </div>
+          <div class="remove-item">
+            <button class="btn btn-danger remove-btn">Remove</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cart Total -->
+    <div class="cart-total d-flex justify-content-between p-3 border">
+      <h4 class="text-black">Cart Subtotal:</h4>
+      <strong class="text-black" id="cart-subtotal">Rp1.850.000</strong>
+    </div>
+
+    <div class="cart-total d-flex justify-content-between p-3 border">
+      <h4 class="text-black">Total:</h4>
+      <strong class="text-black" id="cart-total">Rp1.850.000</strong>
+    </div>
+
+    <!-- Checkout Button -->
+    <div class="mt-4">
+      <a href="checkout.html" class="btn btn-black btn-lg py-3 btn-block">Proceed to Checkout</a>
+    </div>
+  </div>
+</div>
+<!-- End Cart Section -->
+
+<!-- Start Footer Section -->
+<footer class="footer-section">
+  <div class="container relative">
+    <div class="row g-5 mb-5">
+      <div class="col-lg-4">
+        <div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">Shoezy<span>.</span></a></div>
+        <ul class="list-unstyled custom-social">
+          <li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- End Footer Section -->
+
+<!-- Bootstrap and JS -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/tiny-slider.js"></script>
+<script src="js/custom.js"></script>
+<script>
+  // Update cart total based on quantity changes
+  document.querySelectorAll('.quantity-input').forEach(input => {
+    input.addEventListener('input', function() {
+      const price = parseInt(this.closest('.cart-item').querySelector('.product-price').textContent.replace('Rp', '').replace('.', ''));
+      const quantity = parseInt(this.value);
+      const total = price * quantity;
+      this.closest('.cart-item').querySelector('.product-price').textContent = 'Rp' + total.toLocaleString();
+
+      // Recalculate subtotal and total
+      let subtotal = 0;
+      document.querySelectorAll('.cart-item .product-price').forEach(price => {
+        subtotal += parseInt(price.textContent.replace('Rp', '').replace('.', ''));
+      });
+      document.getElementById('cart-subtotal').textContent = 'Rp' + subtotal.toLocaleString();
+      document.getElementById('cart-total').textContent = 'Rp' + subtotal.toLocaleString();
+    });
+  });
+
+  // Remove item from cart
+  document.querySelectorAll('.remove-btn').forEach(button => {
+    button.addEventListener('click', function() {
+      this.closest('.cart-item').remove();
+
+      // Recalculate subtotal and total after removal
+      let subtotal = 0;
+      document.querySelectorAll('.cart-item .product-price').forEach(price => {
+        subtotal += parseInt(price.textContent.replace('Rp', '').replace('.', ''));
+      });
+      document.getElementById('cart-subtotal').textContent = 'Rp' + subtotal.toLocaleString();
+      document.getElementById('cart-total').textContent = 'Rp' + subtotal.toLocaleString();
+    });
+  });
+</script>
+</body>
+</html>
